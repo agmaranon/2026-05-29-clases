@@ -1,8 +1,9 @@
 package org.example.app
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
+import org.example.app.Date
+
+class App (){
+    fun mostrar ():String {
+        return "${Date(1,6,2026)}"
+    }
 }
