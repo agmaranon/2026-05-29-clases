@@ -1,9 +1,10 @@
 package org.example.app
 
-import org.example.app.Date
+import org.example.app.Fecha
 
 class App (){
-    fun mostrar ():String {
-        return "${Date(1,6,2026)}"
+    fun mostrar (){
+        val date = Fecha(1,6,2026)
+        println (date)
     }
 }
